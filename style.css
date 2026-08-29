@@ -7,7 +7,6 @@
 html {
   scroll-behavior: smooth;
   scroll-snap-type: y mandatory;
-  scrollbar-width: none;
 }
 
 html::-webkit-scrollbar {
@@ -86,7 +85,6 @@ h2{
     height: 400px;
     object-fit: contain;
     transition: opacity 0.3s ease;
-
 }
 .painting-info {
     padding-top:50px;
@@ -119,7 +117,7 @@ h2{
     justify-content: center;
     align-items: flex-end;
 
-    padding-top: 80px;
+    padding-top: 50px;
     padding-bottom: 20px;
 
     position: relative;
@@ -132,7 +130,7 @@ h2{
     right: 0;
     bottom: 0;
 
-    height: 70px;
+    height: 90px;
 
     background-color: #3A4E6D;
 
@@ -140,7 +138,7 @@ h2{
 }
 .thumbnails img {
     width: 130px;
-    height: 140px;
+    height: 160px;
     object-fit: cover;
     cursor: pointer;
 
